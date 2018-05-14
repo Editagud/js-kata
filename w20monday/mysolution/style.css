@@ -1,7 +1,7 @@
 #popup {
 
-    position: fixed;
-    top: 150vh;
+    position: absolute;
+    top: 110vh;
     left:0;
     right: 0;
     text-align: center;
@@ -9,8 +9,9 @@
     color: #fff;
     padding: 20px 0;
     z-index: 99999;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
+
+    transition: all 3s ease-in-out;
+   
   }
   
   .cookieAcceptBar a {
