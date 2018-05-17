@@ -21,12 +21,12 @@
     <button> Click </button>
     <script>
     let speech = new Speak();
-    let text = document.querySelector("ul").innerHTML;
+    let text = document.querySelector("li").textContent;
 
-    document.querySelector("button").addEventListener("click", e=>{
-        speech.setVoice(51);
+    document.querySelector("button").addEventListener("click", e=> {
+        speech.setVoice(1);
         console.log(text);
-        speech.speak(text)
+        speech.speak(text);
     })
     </script>
 </body>
